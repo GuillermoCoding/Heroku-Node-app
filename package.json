@@ -1,0 +1,24 @@
+{
+  "name": "heroku-node-app",
+  "version": "1.0.0",
+  "description": "NodeJS application to test Heroku deployment",
+  "main": "index.js",
+  "scripts": {
+	"postinstall":"npm install",
+	"start":"node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuillermoCoding/Heroku-Node-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuillermoCoding/Heroku-Node-app/issues"
+  },
+  "homepage": "https://github.com/GuillermoCoding/Heroku-Node-app#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
